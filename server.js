@@ -2,7 +2,7 @@ const express = require('express')
 const fs = require('fs')
 const app = express()
 const port = 3000
-const pokemon = require('./models/pokemon.js')
+const videoGames = require('./models/video-games')
 
 // Set up middleware
 app.use(methodOverride('_method'))
